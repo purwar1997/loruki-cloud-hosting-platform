@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+:root {
+  --blue: #047aed;
+  --darkBlue: #1c3fa8;
+  --navyBlue: #002240;
+  --white: #ffffff;
+  --black: #333333;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Lato";
+  color: var(--black);
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.16rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--blue);
+}
+
+.navbar .container {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 2.6rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-items a {
+  font-size: 1.2rem;
+  padding-bottom: 2px;
+}
+
+.nav-items a:hover {
+  border-bottom: 1.5px solid var(--white);
+}
+
+/* Showcase styles */
+.showcase {
+  padding-bottom: 20px;
+  background-color: var(--blue);
+  position: relative;
+}
+
+.showcase .container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  color: var(--white);
+}
+
+.showcase-text h1 {
+  font-size: 3rem;
+}
+
+.showcase-text p {
+  margin-top: 16px;
+  width: 90%;
+}
+
+.showcase-text .btn {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid var(--white);
+}
+
+.showcase-form {
+  padding-bottom: 50px;
+  color: var(--black);
+  width: 380px;
+  justify-self: end;
+  position: relative;
+  top: 50px;
+  z-index: 10;
+}
+
+.showcase-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.form-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-controls input {
+  border: none;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.showcase-form .btn {
+  margin-top: 40px;
+  background-color: var(--blue);
+}
+
+.showcase::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: var(--white);
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  transform: skewY(-2.5deg);
+}
+
+/* Stats styles */
+.stats .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.stats h2 {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 1.7rem;
+}
+
+.stats-cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stat-card i {
+  font-size: 50px;
+}
+
+.stat-card h3 {
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+.stat-card p {
+  margin-top: 8px;
+  font-size: 1.4rem;
+}
+
+/* CLI styles */
+.cli .container {
+  padding-bottom: 40px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.cli img {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.cli .card {
+  padding: 20px 30px;
+}
+
+.cli .card h3 {
+  font-size: 1.4rem;
+}
+
+/* Cloud styles */
+.cloud {
+  background-color: var(--blue);
+}
+
+.cloud .container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+}
+
+.cloud-text h2 {
+  font-size: 3.2rem;
+}
+
+.cloud-text p {
+  font-size: 1.4rem;
+}
+
+.cloud-text .btn {
+  margin-top: 25px;
+  padding: 12px 20px;
+  background-color: var(--navyBlue);
+}
+
+/* Languages */
+.languages .container {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.languages h2 {
+  font-size: 2.5rem;
+}
+
+.language-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.language-cards .card h3 {
+  margin-bottom: 15px;
+  font-size: 1.35rem;
+}
+
+.language-cards .card {
+  transition: transform 200ms ease-in-out;
+}
+
+.language-cards .card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: var(--navyBlue);
+  color: var(--white);
+}
+
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer nav li a {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 1.15rem;
+}
+
+footer nav li a:hover {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.socials a {
+  margin-left: 13px;
+}
+
+.socials a i {
+  font-size: 1.8rem;
+  transition: transform 200ms ease;
+}
+
+.socials a i:hover {
+  transform: scale(1.2);
+}
