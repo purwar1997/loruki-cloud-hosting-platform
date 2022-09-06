@@ -7,6 +7,7 @@
   .showcase-text {
     padding-top: 40px;
     text-align: center;
+    animation: slideInFromTop 700ms ease;
   }
 
   .showcase-text p {
@@ -16,6 +17,7 @@
 
   .showcase-form {
     justify-self: center;
+    animation: slideInFromBottom 700ms ease;
   }
 }
 

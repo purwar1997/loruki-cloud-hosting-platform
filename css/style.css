@@ -88,6 +88,10 @@ img {
   color: var(--white);
 }
 
+.showcase-text {
+  animation: slideInFromLeft 700ms ease;
+}
+
 .showcase-text h1 {
   font-size: 3rem;
 }
@@ -111,6 +115,7 @@ img {
   position: relative;
   top: 50px;
   z-index: 10;
+  animation: slideInFromRight 700ms ease;
 }
 
 .showcase-form h2 {
@@ -151,6 +156,7 @@ img {
   padding-top: 100px;
   padding-bottom: 50px;
   text-align: center;
+  animation: slideInFromBottom 700ms ease;
 }
 
 .stats h2 {
@@ -476,4 +482,45 @@ footer nav li a:hover {
   background-color: var(--black);
   color: var(--white);
   padding: 12px 20px;
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
 }
