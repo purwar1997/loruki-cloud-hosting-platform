@@ -1,0 +1,169 @@
+@media (max-width: 930px) {
+  /* Showcase */
+  .showcase .container {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-text {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .showcase-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .showcase-form {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 870px) {
+  /* Features main */
+  .features-main .container {
+    grid-template-columns: 1fr;
+  }
+
+  .features-main .card:nth-child(1),
+  .features-main .card:nth-child(2) {
+    grid-column: 1;
+  }
+}
+
+/* For tablet screens*/
+@media (max-width: 768px) {
+  /* Stats */
+  .stat-cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* CLI */
+  .cli .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+  }
+
+  .cli img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cli .card {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Cloud */
+  .cloud .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cloud img {
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  .cloud-text {
+    grid-row: 2;
+  }
+
+  /* Head */
+  .features-head .container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .head-text {
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .features-head img {
+    justify-self: center;
+    grid-row: 1;
+  }
+
+  /* Sub-head */
+  .features-sub-head .container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sub-head-text {
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .features-sub-head img {
+    justify-self: center;
+    grid-row: 1;
+  }
+
+  /* Docs Head */
+  .docs-head .container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .docs-text {
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .docs-head img {
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  /* Docs main */
+  .docs-main .container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .table-of-contents {
+    justify-self: center;
+  }
+
+  /* Footer */
+  footer .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 30px;
+    text-align: center;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 540px) {
+  /* Navbar */
+  .navbar .container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .nav-items {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  /* Cloud */
+  .cloud-text h2 {
+    line-height: 1.2;
+  }
+
+  .cloud-text p {
+    margin-top: 20px;
+  }
+
+  /* Introduction section */
+  .introduction div i {
+    display: none;
+  }
+}

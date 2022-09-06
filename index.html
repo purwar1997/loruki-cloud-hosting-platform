@@ -15,27 +15,30 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Linking CSS files -->
     <link rel="stylesheet" href="./css/utlilities.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+
     <title>Loruki | Cloud Hosting For Everyone</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="container">
+      <div class="container flex-row">
         <h1 class="logo"><a href="#">Loruki.</a></h1>
 
-        <ul class="nav-items">
-          <li><a href="">Home</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Documentation</a></li>
+        <ul class="nav-items flex-row">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html/features.html">Features</a></li>
+          <li><a href="./html/documentation.html">Documentation</a></li>
         </ul>
       </div>
     </nav>
 
     <!-- Showcase -->
     <section class="showcase">
-      <div class="container">
+      <div class="container grid-2">
         <div class="showcase-text">
           <h1>Easier Deployment</h1>
           <p>
@@ -50,7 +53,7 @@
           <h2>Request a Demo</h2>
 
           <form action="">
-            <div class="form-controls">
+            <div class="form-controls flex-column">
               <input type="text" name="name" placeholder="Name" required />
 
               <input
@@ -77,7 +80,7 @@
           with modern architecture and scaling
         </h2>
 
-        <div class="stats-cards">
+        <div class="stat-cards grid-3">
           <div class="stat-card">
             <i class="fa-solid fa-server"></i>
             <h3>10,349,405</h3>
@@ -101,7 +104,7 @@
 
     <!-- CLI -->
     <section class="cli">
-      <div class="container">
+      <div class="container grid-3">
         <img src="./images/cli.png" alt="cli" />
         <div class="card">
           <h3>Easy to use, cross platform CLI</h3>
@@ -114,7 +117,7 @@
 
     <!-- Cloud -->
     <section class="cloud">
-      <div class="container">
+      <div class="container grid-2">
         <div class="cloud-text">
           <h2>Extreme Cloud Hosting</h2>
           <p>
@@ -123,7 +126,7 @@
           <a href=""><button class="btn">Read More</button></a>
         </div>
 
-        <img class="cloud" src="./images/cloud.png" alt="cloud" />
+        <img src="./images/cloud.png" alt="cloud" />
       </div>
     </section>
 
@@ -132,7 +135,7 @@
       <div class="container">
         <h2>Supported Languages</h2>
 
-        <div class="language-cards">
+        <div class="language-cards flex-row">
           <div class="card">
             <h3>Node.js</h3>
             <img src="./images/logos/node.png" alt="node.js" />
@@ -173,7 +176,7 @@
 
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container flex-row">
         <div class="copyright">
           <h1><a href="#"> Loruki.</a></h1>
           <p>Copyright &copy; 2022</p>
@@ -181,9 +184,9 @@
 
         <nav>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Documentation</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./html/features.html">Features</a></li>
+            <li><a href="./html/documentation.html">Documentation</a></li>
           </ul>
         </nav>
 
