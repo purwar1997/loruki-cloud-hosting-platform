@@ -53,7 +53,7 @@
   }
 
   .cli .card {
-    width: 70%;
+    width: 85%;
     margin: auto;
     text-align: center;
   }
@@ -150,24 +150,23 @@
     border-radius: 10px;
   }
 
+  .nav-items li:hover {
+    text-decoration: none;
+  }
+
   .showcase-form {
     width: 320px;
   }
 
-  .showcase h1 {
+  .showcase h1,
+  .head-text h2,
+  .docs-main h2 {
     font-size: 35px;
   }
 
   .cloud-text h2,
-  .languages h2,
-  .head-text h2,
-  .sub-head-text h2,
-  .docs-main h2 {
+  .sub-head-text h2 {
     font-size: 28px;
-  }
-
-  .cli .card h3 {
-    font-size: 18px;
   }
 
   .stats h2 {
@@ -201,5 +200,9 @@
 
   .btn {
     font-size: 16px;
+  }
+
+  .container {
+    padding: 0 20px;
   }
 }
