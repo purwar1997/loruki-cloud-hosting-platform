@@ -126,6 +126,11 @@
     width: 60%;
     justify-self: center;
   }
+
+  .head-text p,
+  .docs-text p {
+    margin-top: 8px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -150,7 +155,7 @@
     border-radius: 10px;
   }
 
-  .nav-items li:hover {
+  .nav-items li a:active {
     text-decoration: none;
   }
 
@@ -160,17 +165,22 @@
 
   .showcase h1,
   .head-text h2,
-  .docs-main h2 {
+  .docs-text h2 {
     font-size: 35px;
   }
 
   .cloud-text h2,
+  .languages h2,
   .sub-head-text h2 {
     font-size: 28px;
   }
 
   .stats h2 {
     font-size: 20px;
+  }
+
+  .cli .card h3 {
+    font-size: 18px;
   }
 
   .features-main .card {
@@ -203,6 +213,6 @@
   }
 
   .container {
-    padding: 0 20px;
+    padding: 0 25px;
   }
 }
