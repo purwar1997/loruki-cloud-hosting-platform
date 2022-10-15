@@ -1,5 +1,4 @@
-@media (max-width: 930px) {
-  /* Showcase */
+@media (max-width: 1000px) {
   .showcase .container {
     grid-template-columns: 1fr;
   }
@@ -19,10 +18,7 @@
     justify-self: center;
     animation: slideInFromBottom 700ms ease;
   }
-}
 
-@media (max-width: 870px) {
-  /* Features main */
   .features-main .container {
     grid-template-columns: 1fr;
   }
@@ -34,21 +30,24 @@
 }
 
 /* For tablet screens*/
-@media (max-width: 768px) {
-  /* Stats */
+@media (max-width: 900px) {
+  .stats h2 {
+    width: 90%;
+    margin: auto;
+  }
+
   .stat-cards {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  /* CLI */
   .cli .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     gap: 30px;
   }
 
-  .cli img {
+  .cli .image {
     grid-column: 1;
     grid-row: 1;
   }
@@ -59,13 +58,12 @@
     text-align: center;
   }
 
-  /* Cloud */
   .cloud .container {
     grid-template-columns: 1fr;
     gap: 30px;
   }
 
-  .cloud img {
+  .cloud .image {
     grid-row: 1;
     justify-self: center;
   }
@@ -74,7 +72,6 @@
     grid-row: 2;
   }
 
-  /* Head */
   .features-head .container {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -85,12 +82,11 @@
     text-align: center;
   }
 
-  .features-head img {
+  .features-head .image {
     justify-self: center;
     grid-row: 1;
   }
 
-  /* Sub-head */
   .features-sub-head .container {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -101,12 +97,11 @@
     text-align: center;
   }
 
-  .features-sub-head img {
+  .features-sub-head .image {
     justify-self: center;
     grid-row: 1;
   }
 
-  /* Docs Head */
   .docs-head .container {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -117,22 +112,23 @@
     text-align: center;
   }
 
-  .docs-head img {
+  .docs-head .image {
     grid-row: 1;
     justify-self: center;
   }
 
-  /* Docs main */
   .docs-main .container {
     grid-template-columns: 1fr;
     gap: 50px;
   }
 
   .table-of-contents {
+    width: 60%;
     justify-self: center;
   }
+}
 
-  /* Footer */
+@media (max-width: 750px) {
   footer .container {
     flex-direction: column-reverse;
     align-items: center;
@@ -142,8 +138,7 @@
 }
 
 /* For mobile screens */
-@media (max-width: 540px) {
-  /* Navbar */
+@media (max-width: 580px) {
   .navbar .container {
     flex-direction: column;
     row-gap: 20px;
@@ -155,17 +150,56 @@
     border-radius: 10px;
   }
 
-  /* Cloud */
-  .cloud-text h2 {
-    line-height: 1.2;
+  .showcase-form {
+    width: 320px;
   }
 
-  .cloud-text p {
-    margin-top: 20px;
+  .showcase h1 {
+    font-size: 35px;
   }
 
-  /* Introduction section */
-  .introduction div i {
+  .cloud-text h2,
+  .languages h2,
+  .head-text h2,
+  .sub-head-text h2,
+  .docs-main h2 {
+    font-size: 28px;
+  }
+
+  .cli .card h3 {
+    font-size: 18px;
+  }
+
+  .stats h2 {
+    font-size: 20px;
+  }
+
+  .features-main .card {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .features-main .card p {
+    text-align: center;
+  }
+
+  .features-main .card i {
+    width: auto;
+  }
+
+  .table-of-contents {
+    width: 100%;
+  }
+
+  .introduction div p {
+    font-size: 16px;
+  }
+
+  .fa-info {
     display: none;
+  }
+
+  .btn {
+    font-size: 16px;
   }
 }
