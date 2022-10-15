@@ -33,8 +33,8 @@ Home page is divided into following sections :-
 - Statistics section
 - CLI section
 - Cloud Hosting section
-- Languages section
-- Footer section
+- Language section
+- Footer
 
 ### Components of a Features Page
 
@@ -42,9 +42,9 @@ Features page is divided into following sections :-
 
 - Navbar
 - Header
-- Sub-header section
+- Sub-header
 - Features list section
-- Footer section
+- Footer
 
 ### Components of a Documentation Page
 
@@ -53,12 +53,12 @@ Documentation page is divided into following sections :-
 - Navbar
 - Header
 - Docs section
-  - Table of Contents section
+  - Table of Contents
   - Introduction section
-- Footer section
+- Footer
 
 ### Preview of the project :-
 
-![Preview](./images/preview.png)
+![Preview](<./previews/Screenshot%20(111).png>)
 
 ### [**Live link**](https://loruki-cloud-hosting-platform.vercel.app/index.html) of the project.

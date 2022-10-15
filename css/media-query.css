@@ -155,10 +155,6 @@
     border-radius: 10px;
   }
 
-  .nav-items li a:active {
-    text-decoration: none;
-  }
-
   .showcase-form {
     width: 320px;
   }
