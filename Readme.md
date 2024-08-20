@@ -1,30 +1,24 @@
 # Loruki | Cloud Hosting Platform
 
-![HTML](https://img.shields.io/badge/-HTML-red)
-![CSS](https://img.shields.io/badge/-CSS-brightgreen)
-![CSS Grid](https://img.shields.io/badge/-CSS%20Grid-orange)
-![CSS Flexbox](https://img.shields.io/badge/-CSS%20Flexbox-blue)
-![Media Query](https://img.shields.io/badge/-Media%20Query-blueviolet)
+![HTML5](https://img.shields.io/badge/-HTML5-red)
+![CSS3](https://img.shields.io/badge/-CSS3-yellowgreen)
+![Responsive](https://img.shields.io/badge/-Responsive-blue)
 
 ## Description
 
-This project is a multi-page website for a cloud hosting platform called 'Loruki'. It is created using HTML and CSS and is responsive for both mobile and tablet screens.
+This project is a multi-page website for a cloud hosting platform called "Loruki". It is built using HTML and CSS and is responsive for both mobile and tablet screens.
 
-In this project, I have used :-
+## Components of a website
 
-- `CSS Grid` and `CSS Flexbox` to position elements
-- `Media-Queries` to make it mobile and tablet responsive
-- `@keyframes` and `animation` property to display animations while the website loads
-
-This website is composed of three web pages:-
+This website is made up of three webpages :-
 
 - Home Page
 - Features Page
 - Documentation Page
 
-### Components of a Home Page
+### Components of Home Page
 
-Home page is divided into following sections :-
+Homepage is divided into following sections :-
 
 - Navbar
 - Showcase section
@@ -36,7 +30,7 @@ Home page is divided into following sections :-
 - Language section
 - Footer
 
-### Components of a Features Page
+### Components of Features Page
 
 Features page is divided into following sections :-
 
@@ -46,7 +40,7 @@ Features page is divided into following sections :-
 - Features list section
 - Footer
 
-### Components of a Documentation Page
+### Components of Documentation Page
 
 Documentation page is divided into following sections :-
 
@@ -57,8 +51,8 @@ Documentation page is divided into following sections :-
   - Introduction section
 - Footer
 
-### Preview of the project :-
+### Preview of the project
 
 ![Preview](<./previews/Screenshot%20(111).png>)
 
-### [**Live link**](https://loruki-cloud-hosting-platform.vercel.app/index.html) of the project.
+### [**Live link**](https://loruki-cloud.vercel.app/) of the project.
